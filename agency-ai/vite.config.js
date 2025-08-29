@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: './',   // 👈 THIS FIXES BLANK PAGE ON NETLIFY
 })
