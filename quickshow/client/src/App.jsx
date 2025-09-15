@@ -6,7 +6,7 @@ import Movies from './pages/Movies'
 import MovieDetails from './pages/MovieDetails'
 import SeatLayout from './pages/SeatLayout'
 import MyBookings from './pages/MyBookings'
-import Favourite from './pages/Favourite'
+import Favorite from './pages/Favorite'
 
 const App = () => {
 
@@ -20,7 +20,7 @@ const App = () => {
         <Route path='/movies/:id' element={<MovieDetails/>} />
         <Route path='/movies/:id/:date' element={<SeatLayout/>} />
         <Route path='/my-bookings' element={<MyBookings/>} />
-        <Route path='/Favourite' element={<Favourite/>} />
+        <Route path='/Favorite' element={<Favorite/>} />
       </Routes>
     </>
   )
