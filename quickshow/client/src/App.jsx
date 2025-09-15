@@ -9,6 +9,8 @@ import MyBookings from './pages/MyBookings'
 import Favourite from './pages/Favourite'
 
 const App = () => {
+
+  const isAdminRoute = useLocation()
   return (
     <>
       <Navbar />
