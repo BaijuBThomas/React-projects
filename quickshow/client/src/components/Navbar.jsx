@@ -8,7 +8,14 @@ const Navbar = () => {
       <Link to='/' className='max-md:flex-1 '>
       <img src={assets.logo} alt="" className='w-36 h-auto' />
       </Link>
-     
+      <div>
+
+      </div>
+
+      <div> </div>
+
+      <MenuIcon className='max-md:ml-4 md:hidden w-8 h-8 cursor-pointer' />
+     //38min
     </div>
   )
 }
